@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    justify-content: space-evenly;
+}
+input{
+    background-color: black;
+    outline: 0px;
+    border:0px;
+    color: antiquewhite;
+    
+}
+input:hover{
+background-color: rgb(241, 241, 241);
+color: black;
+text-align: center;
+box-shadow: 8px 8px 15px black;
+margin-left: 12px;
+}
+#sec1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    
+}
+/* #sec2{
+    display: flex;
+    justify-content: space-evenly;   
+}
+#sec3{
+    display: flex;
+    justify-content: space-evenly;
+} */
+#sec2,#sec3,#sec4,#sec5,#sec6{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.btn{
+    font-size: 10px;
+    height:20px;
+}
+.btn1{
+    width:50px;
+    height:30px;
+    background-color: rgb(36, 35, 35);
+    color: aliceblue;
+    font-size: 25px;
+}
+.btn2{
+    width:40px;
+    height: 35px;
+    color: aliceblue;
+    background-color: black;
+}
+.btn3,.btn4,.btn5{
+    width:40px;
+    height: 35px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.btn3:hover{
+    font-size: 30px;
+    background-color: rgb(21, 21, 21);
+    box-shadow: 2px 2px 2px white;
+    border-radius: 15px;
+    color: rgb(38, 171, 181);
+    width:60px;
+    height:40px;
+    text-align: center;
+}
+.btn2:hover{
+    font-size: 30px;
+    background-color: black;
+    /* color: rgb(26, 118, 124); */
+    background-color: rgb(11, 12, 12);
+    box-shadow: 2px 2px 2px white;
+    border-radius: 15px;
+    color: rgb(38, 171, 181);
+    width:60px;
+    height:40px;
+    text-align: center;
+}
+.btn4:hover{
+    font-size: 30px;
+    background-color: rgb(7, 7, 7);
+    box-shadow: 2px 2px 2px white;
+    color: rgb(38, 171, 181);
+    background-color: rgb(17, 17, 18);
+    border-radius: 15px;
+    width:60px;
+    height:40px;
+    text-align: center;
+}
+    .btn5:hover{
+        font-size: 30px;
+        background-color: black;
+        box-shadow: 2px 2px 2px white;
+        background-color: rgb(7, 8, 8);
+        border-radius: 15px;
+        color: rgb(38, 171, 181);
+        width:60px;
+        height:40px;
+        text-align: center;
+}
+#fs2:hover{
+    background-color: rgb(10, 11, 11);
+}
+
+#fs2::after #heading{
+    color:crimson
+}
